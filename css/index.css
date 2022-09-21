@@ -123,10 +123,10 @@ h1 {
 
 .imagen{
   background-color: #947c6f; /*Color del fondo de la imagen*/
-  float: right;
+  float: 15px;
   padding: 1rem;
   margin: 54px;
-  max-width: 30%;
+  max-width: 54%;
   font-size: 20px;
 }
 
@@ -143,7 +143,6 @@ h1 {
   max-width: 54%;
   text-align: justify;
   float: left;
-  position: relative;
 }
 
 .info {
