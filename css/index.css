@@ -149,7 +149,7 @@ h1 {
 .recom {
   background-color: #947c6f; /*Color del fondo de la imagen*/
   font-size: 15px;
-  margin: 54px;
+  margin: 0px 0px 0px 54px;
   max-width: 54%;
   text-align: justify;
   float: center;
@@ -171,14 +171,6 @@ h1 {
   max-width: 50%;
   border-radius: 50%;
   margin:40px;
-}
-
-.caso {
-  font-size: 15px;
-  margin: 50px;
-  background-color: #857166; /*Color del fondo de la imagen*/
-  font-size: 18px;
-  text-align: center;
 }
 
 .din{
