@@ -156,21 +156,21 @@ h1 {
   padding: 1rem;
 }
 
-.info img {
-  max-width: 50%;
-  margin:40px;
-  border-radius: 50%;
-}
-
-.recom img {
-  max-width: 30%;
-  border-radius: 50%;
-  margin:40px;
-}
-
 .linea {
   padding: 0.5rem;
   margin: 0.5em;
+}
+
+.info img {
+  max-width: 50%;
+  border-radius: 50%;
+  margin:40px;
+}
+
+.recom img {
+  max-width: 50%;
+  border-radius: 50%;
+  margin:40px;
 }
 
 .caso {
