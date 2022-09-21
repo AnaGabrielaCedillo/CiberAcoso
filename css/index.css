@@ -123,11 +123,12 @@ h1 {
 
 .imagen{
   background-color: #947c6f; /*Color del fondo de la imagen*/
-  float: 15px;
-  padding: 1rem;
-  margin: 54px;
-  max-width: 54%;
   font-size: 20px;
+  margin: 54px;
+  max-width: 54%;  
+  text-align: justify;
+  float: center;
+  padding: 1rem;
 }
 
 .imagen img{
@@ -135,24 +136,24 @@ h1 {
   height: 100%;
 }
 
-.recom {
+.info {
+  background-color: #947c6f; /*Color del fondo de la imagen*/
   font-size: 15px;
   margin: 54px;
-  background-color: #947c6f; /*Color del fondo de la imagen*/
-  font-size: 18px;
   max-width: 54%;
   text-align: justify;
-  float: left;
+  float: right;
+  padding: 1rem;
 }
 
-.info {
+.recom {
+  background-color: #947c6f; /*Color del fondo de la imagen*/
   font-size: 15px;
   margin: 54px;
-  background-color: #947c6f; /*Color del fondo de la imagen*/
-  font-size: 18px;
   max-width: 54%;
   text-align: justify;
-  float: left;
+  float: center;
+  padding: 1rem;
 }
 
 .info img {
