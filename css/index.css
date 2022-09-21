@@ -149,6 +149,7 @@ h1 {
 .recom {
   background-color: #947c6f; /*Color del fondo de la imagen*/
   font-size: 15px;
+  margin: 54px;
   max-width: 54%;
   text-align: justify;
   float: center;
