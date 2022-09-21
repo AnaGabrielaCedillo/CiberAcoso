@@ -36,7 +36,7 @@ mi-nav a {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 200px) {
   mi-nav a {
     font-size: 0.5rem;
   }
