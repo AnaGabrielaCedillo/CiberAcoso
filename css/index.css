@@ -36,7 +36,7 @@ mi-nav a {
   }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 300px) {
   mi-nav a {
     font-size: 0.5rem;
   }
@@ -123,12 +123,37 @@ h1 {
 
 .imagen{
   background-color: #947c6f; /*Color del fondo de la imagen*/
-  font-size: 20px;
-  margin: 54px;
-  max-width: 54%;  
-  text-align: justify;
-  float: center;
+  float: right;
   padding: 1rem;
+  margin: 54px;
+  max-width: 30%;
+  font-size: 20px;
+}
+@media screen and (max-width: 845px) {
+  .imagen {
+    max-width: 40%;
+    margin: 1em;
+    float: none;
+    position: center;
+    margin: 50px 0px 30px 45px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .imagen {
+    max-width: 30%;
+    margin: 1em;
+    float: none;
+    position: center;
+    margin: 50px 0px 30px 45px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .imagen {
+    max-width: 100%;
+    float: center;
+    position: center;
+    margin: 50px 0px 30px 45px;
+  }
 }
 
 .imagen img{
@@ -136,41 +161,110 @@ h1 {
   height: 100%;
 }
 
-.info {
-  background-color: #947c6f; /*Color del fondo de la imagen*/
-  font-size: 15px;
-  margin: 54px;
-  max-width: 54%;
-  text-align: justify;
-  float: right;
-  padding: 1rem;
-}
-
 .recom {
-  background-color: #947c6f; /*Color del fondo de la imagen*/
   font-size: 15px;
-  margin: 54px;
-  max-width: 54%;
+  margin: 0px 0px 0px 54px;
+  background-color: #947c6f; /*Color del fondo de la imagen*/
+  font-size: 18px;
+  max-width: 40%;
   text-align: justify;
-  float: center;
-  padding: 1rem;
+  float: left;
+  position: relative;
+}
+@media screen and (max-width: 1000px) {
+  .recom {
+    max-width: 45%;
+    position: center;
+    margin: 50px 0px 0px 54px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .recom {
+    max-width: 60%;
+    float: center;
+    position: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .recom {
+    max-width: 80%;
+    float: center;
+    position: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .recom {
+    max-width: 100%;
+    float: center;
+    position: center;
+  }
 }
 
-.linea {
+.info {
+  font-size: 15px;
+  margin: 54px;
+  background-color: #947c6f; /*Color del fondo de la imagen*/
+  font-size: 18px;
+  max-width: 54%;
+  text-align: justify;
+  float: left;
+}
+@media screen and (max-width: 1000px) {
+  .info {
+    max-width: 40%;
+    float: center;
+    position: center;
+  }
+}
+@media screen and (max-width: 845px) {
+  .info {
+    margin: 0px 0px 0px 54px;
+  }
+}
+@media screen and (max-width: 657px) {
+  .info {
+    max-width: 60%;
+    float: center;
+    position: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .info {
+    max-width: 80%;
+    float: center;
+    position: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .info  {
+    max-width: 100%;
+    float: center;
+    position: center;
+  }
+}
+.info img {
+  max-width: 50%;
+  margin:40px;
+  border-radius: 50%;
+}
+
+.recom img {
+  max-width: 30%;
+  border-radius: 50%;
+  margin:40px;
+}
+
+.línea {
   padding: 0.5rem;
   margin: 0.5em;
 }
 
-.info img {
-  max-width: 50%;
-  border-radius: 50%;
-  margin:40px;
-}
-
-.recom img {
-  max-width: 50%;
-  border-radius: 50%;
-  margin:40px;
+.caso {
+  font-size: 15px;
+  margin: 50px;
+  background-color: #857166; /*Color del fondo de la imagen*/
+  font-size: 18px;
+  text-align: center;
 }
 
 .din{
@@ -178,6 +272,49 @@ h1 {
   background-color: #947c6f; /*Color del fondo de la imagen*/
   margin: 1em;
   margin: 0px 0px 0px 54px;
+}
+@media screen and (max-width: 1000px) {
+  .din {
+    max-width: 45%;
+    position: center;
+    margin: 1em;
+    margin: 50px 0px 0px 40px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .din {
+    max-width: 40%;
+    position: center;
+    margin: 1em;
+    margin: 50px 0px 0px 40px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .din {
+    max-width: 60%;
+    float: none;
+    position: center;
+    margin: 1em;
+    margin: 50px 0px 0px 45px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .din {
+    max-width: 80%;
+    float: none;
+    position: center;
+    margin: 1em;
+    margin: 50px 0px 0px 45px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .din {
+    max-width: 100%;
+    float: none;
+    position: center;
+    margin: 1em;
+    margin: 50px 0px 0px 45px;
+  }
 }
 
 
